@@ -24,3 +24,17 @@ print (f ": {nombre}  {apellido} -  {colegio} ")
 #float() - convierte a  decimales
 numero = int(input("ingrese el numero : "))
 print (numero + 10)
+
+#conditional if - else
+
+numero1 = int(input ("insertar numero :  "))
+numero2 = int(input("insertar numero :  "))
+
+if numero1 < numero2 :
+    menor = numero1
+    
+else :
+    menor = numero2
+    
+print( "el numero menor es : " , menor   )
+    
